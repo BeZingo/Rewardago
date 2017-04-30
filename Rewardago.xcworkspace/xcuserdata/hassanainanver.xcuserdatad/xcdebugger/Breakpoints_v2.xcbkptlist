@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Rewardago/AppDelegate.swift"
+            timestampString = "514213946.697858"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Rewardago.AppDelegate.__deallocating_deinit"
+                  moduleName = "Rewardago"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hassanainanver/Documents/rewardago/Rewardago/Rewardago/AppDelegate.swift"
+                  timestampString = "514213946.789331"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Rewardago.AppDelegate.init () -&gt; Rewardago.AppDelegate"
+                  moduleName = "Rewardago"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hassanainanver/Documents/rewardago/Rewardago/Rewardago/AppDelegate.swift"
+                  timestampString = "514213946.795286"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Rewardago.AppDelegate.__allocating_init () -&gt; Rewardago.AppDelegate"
+                  moduleName = "Rewardago"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hassanainanver/Documents/rewardago/Rewardago/Rewardago/AppDelegate.swift"
+                  timestampString = "514213946.797092"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Rewardago"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hassanainanver/Documents/rewardago/Rewardago/Rewardago/AppDelegate.swift"
+                  timestampString = "514213946.799075"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57F6DBB31BB837E87DB674B9 /* libPods-RewardagoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20182187285F15F52000F94E /* libPods-RewardagoUITests.a */; };
+		7945B77AB33FC1A29BB55D6E /* libPods-RewardagoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92CB2D9B16F48F9CBC8E0C56 /* libPods-RewardagoTests.a */; };
+		C9B80501A80D04620AB2EC03 /* libPods-Rewardago.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA12E1CF6CF0F5F3ADFD28C /* libPods-Rewardago.a */; };
+		CD6426B01E7C745E0027976E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6426AF1E7C745E0027976E /* MapKit.framework */; };
 		CD9A90011E7C6EB7000634A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9A90001E7C6EB7000634A7 /* AppDelegate.swift */; };
 		CD9A90031E7C6EB7000634A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9A90021E7C6EB7000634A7 /* ViewController.swift */; };
 		CD9A90061E7C6EB7000634A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9A90041E7C6EB7000634A7 /* Main.storyboard */; };
 		CD9A90091E7C6EB7000634A7 /* Rewardago.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD9A90071E7C6EB7000634A7 /* Rewardago.xcdatamodeld */; };
 		CD9A900B1E7C6EB7000634A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9A900A1E7C6EB7000634A7 /* Assets.xcassets */; };
 		CD9A900E1E7C6EB7000634A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9A900C1E7C6EB7000634A7 /* LaunchScreen.storyboard */; };
-		CD9A90191E7C6EB8000634A7 /* RewardagoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9A90181E7C6EB8000634A7 /* RewardagoTests.swift */; };
-		CD9A90241E7C6EB8000634A7 /* RewardagoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9A90231E7C6EB8000634A7 /* RewardagoUITests.swift */; };
+		CDB68C301EA51037001A8D62 /* HomeMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB68C2F1EA51037001A8D62 /* HomeMainViewController.swift */; };
+		CDB68C321EA510AD001A8D62 /* VoucherViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB68C311EA510AD001A8D62 /* VoucherViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20182187285F15F52000F94E /* libPods-RewardagoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RewardagoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B32BC4E4E81E911E7CD7E09 /* Pods-RewardagoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RewardagoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RewardagoUITests/Pods-RewardagoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4366FDFA55F26271CE1B6890 /* Pods-RewardagoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RewardagoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RewardagoUITests/Pods-RewardagoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6DA12E1CF6CF0F5F3ADFD28C /* libPods-Rewardago.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rewardago.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FA95F19862B0AC7F63CA09A /* Pods-RewardagoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RewardagoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RewardagoTests/Pods-RewardagoTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A46E3068D477923963A0D78 /* Pods-RewardagoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RewardagoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RewardagoTests/Pods-RewardagoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D66A1C5567EB0E4A40F690B /* Pods-Rewardago.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rewardago.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rewardago/Pods-Rewardago.debug.xcconfig"; sourceTree = "<group>"; };
+		92CB2D9B16F48F9CBC8E0C56 /* libPods-RewardagoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RewardagoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4466E79E40BC39192C9A63B /* Pods-Rewardago.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rewardago.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rewardago/Pods-Rewardago.release.xcconfig"; sourceTree = "<group>"; };
+		CD6426AD1E7C74580027976E /* Rewardago.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rewardago.entitlements; sourceTree = "<group>"; };
+		CD6426AF1E7C745E0027976E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		CD9A8FFD1E7C6EB7000634A7 /* Rewardago.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rewardago.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9A90001E7C6EB7000634A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD9A90021E7C6EB7000634A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,11 +59,9 @@
 		CD9A900D1E7C6EB7000634A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD9A900F1E7C6EB7000634A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD9A90141E7C6EB8000634A7 /* RewardagoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RewardagoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD9A90181E7C6EB8000634A7 /* RewardagoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardagoTests.swift; sourceTree = "<group>"; };
-		CD9A901A1E7C6EB8000634A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD9A901F1E7C6EB8000634A7 /* RewardagoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RewardagoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD9A90231E7C6EB8000634A7 /* RewardagoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardagoUITests.swift; sourceTree = "<group>"; };
-		CD9A90251E7C6EB8000634A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB68C2F1EA51037001A8D62 /* HomeMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeMainViewController.swift; sourceTree = "<group>"; };
+		CDB68C311EA510AD001A8D62 /* VoucherViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoucherViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD6426B01E7C745E0027976E /* MapKit.framework in Frameworks */,
+				C9B80501A80D04620AB2EC03 /* libPods-Rewardago.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7945B77AB33FC1A29BB55D6E /* libPods-RewardagoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +86,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57F6DBB31BB837E87DB674B9 /* libPods-RewardagoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B73A4E5370EA5C38E5305AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D66A1C5567EB0E4A40F690B /* Pods-Rewardago.debug.xcconfig */,
+				A4466E79E40BC39192C9A63B /* Pods-Rewardago.release.xcconfig */,
+				8A46E3068D477923963A0D78 /* Pods-RewardagoTests.debug.xcconfig */,
+				7FA95F19862B0AC7F63CA09A /* Pods-RewardagoTests.release.xcconfig */,
+				2B32BC4E4E81E911E7CD7E09 /* Pods-RewardagoUITests.debug.xcconfig */,
+				4366FDFA55F26271CE1B6890 /* Pods-RewardagoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD6426AE1E7C745E0027976E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD6426AF1E7C745E0027976E /* MapKit.framework */,
+				6DA12E1CF6CF0F5F3ADFD28C /* libPods-Rewardago.a */,
+				92CB2D9B16F48F9CBC8E0C56 /* libPods-RewardagoTests.a */,
+				20182187285F15F52000F94E /* libPods-RewardagoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CD9A8FF41E7C6EB7000634A7 = {
 			isa = PBXGroup;
 			children = (
 				CD9A8FFF1E7C6EB7000634A7 /* Rewardago */,
-				CD9A90171E7C6EB8000634A7 /* RewardagoTests */,
-				CD9A90221E7C6EB8000634A7 /* RewardagoUITests */,
 				CD9A8FFE1E7C6EB7000634A7 /* Products */,
+				CD6426AE1E7C745E0027976E /* Frameworks */,
+				7B73A4E5370EA5C38E5305AF /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +140,7 @@
 		CD9A8FFF1E7C6EB7000634A7 /* Rewardago */ = {
 			isa = PBXGroup;
 			children = (
+				CD6426AD1E7C74580027976E /* Rewardago.entitlements */,
 				CD9A90001E7C6EB7000634A7 /* AppDelegate.swift */,
 				CD9A90021E7C6EB7000634A7 /* ViewController.swift */,
 				CD9A90041E7C6EB7000634A7 /* Main.storyboard */,
@@ -106,26 +148,10 @@
 				CD9A900C1E7C6EB7000634A7 /* LaunchScreen.storyboard */,
 				CD9A900F1E7C6EB7000634A7 /* Info.plist */,
 				CD9A90071E7C6EB7000634A7 /* Rewardago.xcdatamodeld */,
+				CDB68C2F1EA51037001A8D62 /* HomeMainViewController.swift */,
+				CDB68C311EA510AD001A8D62 /* VoucherViewCell.swift */,
 			);
 			path = Rewardago;
-			sourceTree = "<group>";
-		};
-		CD9A90171E7C6EB8000634A7 /* RewardagoTests */ = {
-			isa = PBXGroup;
-			children = (
-				CD9A90181E7C6EB8000634A7 /* RewardagoTests.swift */,
-				CD9A901A1E7C6EB8000634A7 /* Info.plist */,
-			);
-			path = RewardagoTests;
-			sourceTree = "<group>";
-		};
-		CD9A90221E7C6EB8000634A7 /* RewardagoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CD9A90231E7C6EB8000634A7 /* RewardagoUITests.swift */,
-				CD9A90251E7C6EB8000634A7 /* Info.plist */,
-			);
-			path = RewardagoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD9A90281E7C6EB8000634A7 /* Build configuration list for PBXNativeTarget "Rewardago" */;
 			buildPhases = (
+				C60E2E52574CE616E0350E73 /* [CP] Check Pods Manifest.lock */,
 				CD9A8FF91E7C6EB7000634A7 /* Sources */,
 				CD9A8FFA1E7C6EB7000634A7 /* Frameworks */,
 				CD9A8FFB1E7C6EB7000634A7 /* Resources */,
+				826284EE3BF36F2147F5C4A5 /* [CP] Embed Pods Frameworks */,
+				81C9610BB949DB84D7D788AD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD9A902B1E7C6EB8000634A7 /* Build configuration list for PBXNativeTarget "RewardagoTests" */;
 			buildPhases = (
+				BD55F649DAB98FDEDF4B9BFB /* [CP] Check Pods Manifest.lock */,
 				CD9A90101E7C6EB8000634A7 /* Sources */,
 				CD9A90111E7C6EB8000634A7 /* Frameworks */,
 				CD9A90121E7C6EB8000634A7 /* Resources */,
+				AE8C99301EFE3BDAEE2ABC55 /* [CP] Embed Pods Frameworks */,
+				871A9C39C4BE990637FEFD03 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD9A902E1E7C6EB8000634A7 /* Build configuration list for PBXNativeTarget "RewardagoUITests" */;
 			buildPhases = (
+				C2809DCCFA65BAE32BC55393 /* [CP] Check Pods Manifest.lock */,
 				CD9A901B1E7C6EB8000634A7 /* Sources */,
 				CD9A901C1E7C6EB8000634A7 /* Frameworks */,
 				CD9A901D1E7C6EB8000634A7 /* Resources */,
+				3E137650C53B30E84C0E178C /* [CP] Embed Pods Frameworks */,
+				FB0A799BBCE6BE62B30DAE5F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,6 +233,14 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 7A95HJY89C;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					CD9A90131E7C6EB8000634A7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -258,13 +301,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E137650C53B30E84C0E178C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RewardagoUITests/Pods-RewardagoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81C9610BB949DB84D7D788AD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rewardago/Pods-Rewardago-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		826284EE3BF36F2147F5C4A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rewardago/Pods-Rewardago-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		871A9C39C4BE990637FEFD03 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RewardagoTests/Pods-RewardagoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE8C99301EFE3BDAEE2ABC55 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RewardagoTests/Pods-RewardagoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD55F649DAB98FDEDF4B9BFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C2809DCCFA65BAE32BC55393 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C60E2E52574CE616E0350E73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB0A799BBCE6BE62B30DAE5F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RewardagoUITests/Pods-RewardagoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD9A8FF91E7C6EB7000634A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CD9A90031E7C6EB7000634A7 /* ViewController.swift in Sources */,
+				CDB68C321EA510AD001A8D62 /* VoucherViewCell.swift in Sources */,
 				CD9A90011E7C6EB7000634A7 /* AppDelegate.swift in Sources */,
+				CDB68C301EA51037001A8D62 /* HomeMainViewController.swift in Sources */,
 				CD9A90091E7C6EB7000634A7 /* Rewardago.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,7 +456,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD9A90191E7C6EB8000634A7 /* RewardagoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +463,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD9A90241E7C6EB8000634A7 /* RewardagoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,12 +596,15 @@
 		};
 		CD9A90291E7C6EB8000634A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D66A1C5567EB0E4A40F690B /* Pods-Rewardago.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Rewardago/Rewardago.entitlements;
 				DEVELOPMENT_TEAM = 7A95HJY89C;
 				INFOPLIST_FILE = Rewardago/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = rewardago.Rewardago;
+				PRODUCT_BUNDLE_IDENTIFIER = bezingo.Rewardago;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -428,12 +612,15 @@
 		};
 		CD9A902A1E7C6EB8000634A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4466E79E40BC39192C9A63B /* Pods-Rewardago.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Rewardago/Rewardago.entitlements;
 				DEVELOPMENT_TEAM = 7A95HJY89C;
 				INFOPLIST_FILE = Rewardago/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = rewardago.Rewardago;
+				PRODUCT_BUNDLE_IDENTIFIER = bezingo.Rewardago;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -441,6 +628,7 @@
 		};
 		CD9A902C1E7C6EB8000634A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A46E3068D477923963A0D78 /* Pods-RewardagoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -455,6 +643,7 @@
 		};
 		CD9A902D1E7C6EB8000634A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FA95F19862B0AC7F63CA09A /* Pods-RewardagoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +658,7 @@
 		};
 		CD9A902F1E7C6EB8000634A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B32BC4E4E81E911E7CD7E09 /* Pods-RewardagoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = RewardagoUITests/Info.plist;
@@ -482,6 +672,7 @@
 		};
 		CD9A90301E7C6EB8000634A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4366FDFA55F26271CE1B6890 /* Pods-RewardagoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = RewardagoUITests/Info.plist;
@@ -512,6 +703,7 @@
 				CD9A902A1E7C6EB8000634A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD9A902B1E7C6EB8000634A7 /* Build configuration list for PBXNativeTarget "RewardagoTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +712,7 @@
 				CD9A902D1E7C6EB8000634A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD9A902E1E7C6EB8000634A7 /* Build configuration list for PBXNativeTarget "RewardagoUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +721,7 @@
 				CD9A90301E7C6EB8000634A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
